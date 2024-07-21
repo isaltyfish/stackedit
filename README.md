@@ -1,5 +1,12 @@
 # StackEdit
 
+## 运行注意事项
+
+* 首次运行，安装依赖需要开代理，否则有些依赖会安装不成功
+* node版本已经到20了，但是项目中很多依赖和最新的 node 不兼容，因此需要切换到 Node 14
+* 如果运行有 Node-sass 报错，可以尝试运行 `npm rebuild node-sass`
+* 可以使用项目目录下的 start.sh 来启动项目
+
 [![Build Status](https://img.shields.io/travis/benweet/stackedit.svg?style=flat)](https://travis-ci.org/benweet/stackedit) [![NPM version](https://img.shields.io/npm/v/stackedit.svg?style=flat)](https://www.npmjs.org/package/stackedit)
 
 > Full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
